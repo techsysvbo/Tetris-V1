@@ -1,10 +1,10 @@
-terraform {
-  cloud {
+terraform { 
+  cloud { 
+    
+    organization = "techsweet" 
 
-    organization = "VBO"
-
-    workspaces {
-      name = "vbo"
-    }
-  }
+    workspaces { 
+      name = "techsweet" 
+    } 
+  } 
 }
